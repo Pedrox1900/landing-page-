@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(57,0,64) ;
+    background: linear-gradient(37deg, rgba(57,0,64,1) 0%, rgba(102,0,100,1) 35%, rgba(20,0,20,1) 100%);
+    height: 100vh;
+    overflow: hidden;
+}
+
+header{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px ;
+    font-size: 1.25em;
+    margin-bottom: 50px;
+   
+}
+
+header .cabecalho{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+    align-items: center;
+}
+
+header .cabecalho a {
+    text-decoration: none;
+    color: #818487;
+}
+
+header .cabecalho button {
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #279DE0;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+ .principal .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6.25em;
+    
+}
+
+.principal .left h1 {
+    font-size: 55px;
+    font-family: 'Rubik Mono One', sans-serif
+}
+
+.principal .left p {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    
+}
+
+.principal .left .button-p button{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    
+    
+}
+
+.principal .left .button-p .b1{
+    background-color: #279DE0;
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+
+.principal .left .button-p .b2 {
+    padding: 20px;
+    
+}
+
+.principal .left .text {
+    color: #818487;
+}
+
+.principal .left .button-p button img {
+    color: #fff;
+}
+
+.principal .left .apps .img{
+    padding: 0px 20px;
+}
+
+@media screen  and (max-width:380px){
+    .principal .left  h1{
+        margin-top: 150px;
+    }
+}
+
+
+
+
+
+@media screen  and (max-width:1196px){
+
+    header{
+        height: 10vh;
+       
+    }
+
+   header .cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   }
+
+   header .cabecalho a {
+    padding-bottom: 10%;
+   }
+
+    .principal .left{
+       display: flex;
+       text-align: center;
+       padding: 5px;
+       
+        
+    }
+
+    .principal .left h1 {
+        
+        font-size: 30px;
+    }
+
+    
+    .principal .right img{
+       display: none;
+    }
+
+    .principal {
+        height: 100vh;
+    }
+}
+
+
+@media screen  and (max-width:1336px){
+    .principal .right img {
+        width: 500px;
+    }
+}
+   
+    
